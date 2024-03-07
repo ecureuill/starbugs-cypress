@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 07 21:51:59 GMT 2024","Thu Mar 07 21:52:01 GMT 2024","1554","","Apply coupon","","","","Should show an alert on attempt to apply expired coupon",""
+"passed","Thu Mar 07 21:51:55 GMT 2024","Thu Mar 07 21:51:57 GMT 2024","2404","","Successful purchase","","","","completes the purchase successfully and displays payment type",""
+"passed","Thu Mar 07 21:51:57 GMT 2024","Thu Mar 07 21:51:59 GMT 2024","1680","","Apply coupon","","","","Should apply valid coupon and update total price",""
+"passed","Thu Mar 07 21:51:47 GMT 2024","Thu Mar 07 21:51:48 GMT 2024","1051","","home","","","","Should list coffee catalog",""
+"passed","Thu Mar 07 21:51:49 GMT 2024","Thu Mar 07 21:51:51 GMT 2024","1414","","home","","","","Should show a popup when user attempts do purchase an unavailable coffee",""
+"passed","Thu Mar 07 21:51:48 GMT 2024","Thu Mar 07 21:51:49 GMT 2024","1321","","home","","","","should start the coffee purchase and show the Checkout page with the correct total amount",""
+"passed","Thu Mar 07 21:51:46 GMT 2024","Thu Mar 07 21:51:47 GMT 2024","673","","home","","","","Should be online",""
