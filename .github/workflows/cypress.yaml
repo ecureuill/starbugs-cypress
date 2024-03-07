@@ -5,7 +5,8 @@ on:
     branches:
       - main
 permissions:
-    checks: write
+  checks: write
+  pages: write
 
 jobs:
   run-tests:
