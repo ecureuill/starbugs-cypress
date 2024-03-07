@@ -12,6 +12,9 @@ module.exports = defineConfig({
     },
     viewportHeight: 1080,
     viewportWidth: 1920,
+    env: {
+      allure: true
+    },
     setupNodeEvents(on, config) {
       // implement node event listeners here
       allureWriter(on, config);
