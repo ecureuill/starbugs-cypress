@@ -23,4 +23,5 @@ jobs:
       if: success() || failure()
       with:
         report_paths: '**/results/output.xml'
+        token: ${{secrets.GITHUB_TOKEN}}
 
