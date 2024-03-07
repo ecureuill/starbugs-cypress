@@ -1,19 +1,33 @@
 # Starbugs Coffee e2e with Cypress
 
-This project is an initial study on how to perform end-to-end (E2E) testing of the Starbugs Coffee webapp using Cypress Framework. The main objective is to learn how Cypress can be used to automate user interface tests and improve the quality of the software.
+This project is an initial study on how to perform end-to-end (E2E) testing using Cypress Framework.
 
-# Reporter
-Cypress generates JUnit XML test reports. These reports can be used to integrate with various third-party tools and services for further analysis and visualization.
+## Reporting
 
-## GitHub Workflow Action
+- **Junit**: Cypress generates JUnit XML test reports. These reports can be used to integrate with various third-party tools and services for further analysis and visualization.
+- **Allure**: This project leverages the [cypress-allure-plugin](https://github.com/shelex/cypress-allure-plugin). This plugin integrates the Allure reporting framework with Cypress, providing a more comprehensive and interactive reporting experience.
 
-The workflow includes an action that processes the JUnit XML test reports generated during the test run and displays the results as a pull request check with a summary and annotations. This provides a clear and concise overview of the test results directly within the pull request, facilitating collaboration and code review.
+### Viewing Reports
+
+The workflow is configured to deploy **Allure reports** to the [GitHub Project's Pages](https://ecureuill.github.io/starbugs-cypress).
+
+The workflow also includes an action that processes the JUnit XML test reports generated during the test run and displays the results as a check with a summary and annotations. 
+
+Navigate to the project's GitHub page and access the "Actions" tab. Open the latest **Cypress Test** workflow executed.
 
 ![Github workflow action](.github/img/report.png)
 
+
+## Evidences
+
+- **Screenshots**: Cypress will automatically capture screenshots when a failure happens
+- **Video recording**: Cypress records a video for each spec file when running tests during cypress
+
+
+
 ## Running locally
 
-To run tests locall, you will need the following 
+To run tests locally, you will need the following 
 - nodejs installed
 - cypress installed
 
@@ -29,7 +43,7 @@ To run tests locall, you will need the following
     ```bash
     npx cypress run
     ```
-1. Alternatively, open Cypress UI to run tests
+1. Alternatively, open Interactive Cypress UI for detailed test execution and debugging
     ```bash
     npx cypress open
     ```
