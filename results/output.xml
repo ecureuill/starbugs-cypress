@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.153" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-03-07T20:05:17" tests="0" file="cypress\e2e\checkout.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Successful purchase" timestamp="2024-03-07T20:05:17" tests="1" time="3.275" failures="0">
+    <testcase name="Successful purchase completes the purchase successfully and displays payment type" time="3.243" classname="completes the purchase successfully and displays payment type">
+    </testcase>
+  </testsuite>
+  <testsuite name="Apply coupon" timestamp="2024-03-07T20:05:20" tests="2" time="3.869" failures="0">
+    <testcase name="Apply coupon Should apply valid coupon and update total price" time="1.840" classname="Should apply valid coupon and update total price">
+    </testcase>
+    <testcase name="Apply coupon Should show an alert on attempt to apply expired coupon" time="1.938" classname="Should show an alert on attempt to apply expired coupon">
+    </testcase>
+  </testsuite>
+</testsuites>
